@@ -9,7 +9,7 @@ for i in range(10): #i starts at 0 and counts up to but no including 10
 
 #####Basic use of lists#####
 
-listy = ('zero', 'one', 'two', 'three', 'four', 'five') #Make a list of strings
+listy = ['zero', 'one', 'two', 'three', 'four', 'five'] #Make a list of strings
 
 print listy #print all items in list
 

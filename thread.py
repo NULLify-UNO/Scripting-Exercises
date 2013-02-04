@@ -1,6 +1,9 @@
 import threading
 import datetime
-        
+
+#Basic example of threads
+#Use as refence to make chat.py much better :)       
+
 class ThreadClass(threading.Thread):
     def run(self):
         now = datetime.datetime.now()

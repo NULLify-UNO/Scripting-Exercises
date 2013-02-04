@@ -4,6 +4,8 @@ from socket import *      #import the socket library
 #Simple chat client, not even close to done
 #Allows the user to chat with one client
 #Can only send one message at a time
+#ADD THREADING
+#Example is in thread.py
 
 ##let's set up some constants
 HOST = ''    #we are the host

@@ -6,11 +6,11 @@ import random
 
 class passCrack(protocol.Protocol):
     def __init__(self, data):
-        dic = open('dictionary.txt','r')
-        passlist = []
-        for word in dic:
-            passlist.append(word.strip('\n'))
-        #passlist = ('ninja','frodo','luigi','nullify','sonic','mario','peach','wario','yoshi','walle','zelda','leela','felix','ralph','link','navi','deku','onox','zant','impa','sage','tatl','anju','guru','ganon','agahnim','bellum','demise','ghirahim','majora','malladus','twinrova','vaati','veran','usurper','epona','fi','groose','kaepora','gaebora','daphnes','nohansen','linebeck','marin','midna','tingle','beeble','biggoron','dampe','malon','mamamu','mutoh','postman','skullkid','syrup','talon')
+        #dic = open('dictionary.txt','r')
+        #passlist = []
+        #for word in dic:
+        #    passlist.append(word.strip('\n'))
+        passlist = ('ninja','frodo','luigi','nullify','sonic','mario','peach','wario','yoshi','walle','zelda','leela','felix','ralph','link','navi','deku','onox','zant','impa','sage','tatl','anju','guru','ganon','agahnim','bellum','demise','ghirahim','majora','malladus','twinrova','vaati','veran','usurper','epona','fi','groose','kaepora','gaebora','daphnes','nohansen','linebeck','marin','midna','tingle','beeble','biggoron','dampe','malon','mamamu','mutoh','postman','skullkid','syrup','talon')
         word = random.randint(0, (len(passlist)-1))
         num = random.randint(0, 9)
         num2 = random.randint(0, 9)
